@@ -1,0 +1,46 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleEvaluate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Evaluation & Review</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Evaluation & Review</h1>
+      </header>
+  
+      <main>
+        <form id="commentForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required="">
+  
+          <label for="rating">Evaluation:</label>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" required="">
+            <label for="star5" title="5 sao"><i class="fas fa-star"></i></label>
+            <input type="radio" id="star4" name="rating" value="4" required="">
+            <label for="star4" title="4 sao"><i class="fas fa-star"></i></label>
+            <input type="radio" id="star3" name="rating" value="3" required="">
+            <label for="star3" title="3 sao"><i class="fas fa-star"></i></label>
+            <input type="radio" id="star2" name="rating" value="2" required="">
+            <label for="star2" title="2 sao"><i class="fas fa-star"></i></label>
+            <input type="radio" id="star1" name="rating" value="1" required="">
+            <label for="star1" title="1 sao"><i class="fas fa-star"></i></label>
+          </div>
+  
+          <label for="commentText">Review:</label>
+          <textarea id="commentText" rows="4" required=""></textarea>
+  
+          <button type="submit">Send Review</button>
+        </form>
+  
+        <div id="commentsContainer" class="comments"></div>
+      </main>
+    </div>
+  
+    <script src="scriptEvaluate.js"></script>
+  
+  
+  </body></html>

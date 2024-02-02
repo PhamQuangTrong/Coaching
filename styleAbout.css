@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #999;
+    margin: 1%;
+}
+
+
+
+.aboutUs{
+    background-color: #000000;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1% 0;
+    position: fixed;
+    width: 98%;
+    margin-bottom: 5%;
+    /* border-radius: 10px; */
+    top: 1%;
+}
+
+.container{
+    padding: 0 5%;
+    margin-top: 15%;
+    
+}
+
+.member {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    color: #777;
+    margin-top: 10px;
+}

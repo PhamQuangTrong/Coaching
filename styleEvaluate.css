@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.servicesbusinessplans.com/wp-content/uploads/2018/05/How-to-Price-Your-Coaching-Service-1024x688.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #555555;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    background-color: #f7f6fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  .rating {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    color: #6c757d;  /* Màu đen-xám cho ngôi sao chưa được chọn */
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: #ffb400; /* Màu vàng khi di chuột qua ngôi sao */
+  }
+  
+  .rating input:checked ~ label,
+  .rating input:checked ~ label:hover,
+  .rating label:hover ~ input:checked ~ label {
+    color: #ffb400; /* Màu vàng khi ngôi sao được chọn */
+  }
+  
+  input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #343a40;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    border-bottom: 1px solid #ced4da;
+    padding: 15px 0;
+  }
+  
+  .comment:last-child {
+    border-bottom: none;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .comment {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  

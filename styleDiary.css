@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: #000000;
+  padding: 1% 0;
+  color: #fff;
+  top: 1%;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 1000;
+  color: #fff;
+  background-color: #000000;
+  padding: 1% 0;
+}
+
+#calendar {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#month-label {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #eaeaea;
+}
+
+td {
+  border: 1px solid #000000;
+}
+
+.selected {
+  background-color: #ccc;
+}
+
+/* CSS cho form đăng ký */
+#entry-form {
+  margin-top: 20px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+h2{
+  text-align: center;
+}
+
+.calender{
+  background-color: #dde3e9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 2%;
+  padding: 1% 5%
+}
+
+.entry-form{
+  margin: 0% 15% 2% 15%;
+  background-image: url(https://www.educaciontrespuntocero.com/wp-content/uploads/2020/11/coaching-training-planning.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 5px;
+  padding: 3% 7%
+}
+
+*{margin: 0; padding: 0;}
+.container{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .top .top-black-left i,p{
+    padding: 0 0px 0 15px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.top-white-mid .a-funcition{
+    display: flex;
+    width: 80px;
+    height: 70px;
+}
+.top-white-mid .a-funcition .div1{
+    width: 80px;
+    height: 70px;
+    background-color: #c5cf31;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.top-white .top-white-mid .a-funcition p{
+    color: black;
+    transition: 0.4s;
+    width: 80px;
+    height: 70px; 
+    margin:0 ;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 12px;
+    transition: 0.4s;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+    
+.top-white .top-white-mid .a-funcition p:hover {
+    background-color: #c5cf31;
+    transition: 0.7s;
+    padding: 30% 15%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.top-white-mid{
+  padding: 0 25%;
+}
+
+.top-white{
+  background-color: #f7f6fa;
+  margin-bottom: 2%;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 8%;
+}
+
+.footer{
+  background-color: #181821;
+  color: #ccc;
+  padding: 2% 0;
+}
+
+.footer__top{
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon{
+  padding: 1%;
+  margin-right: 5%;
+  color: #fff;
+}
+
+.footer__bottom{
+  text-align: center;
+  padding-top: 1%;
+}
+
+
