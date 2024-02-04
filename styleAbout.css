@@ -52,3 +52,22 @@ p {
     color: #777;
     margin-top: 10px;
 }
+
+/* infor_of_Leo */
+.icon_of_Leo{
+    color: #000000;
+    padding: 0 3%;
+    font-size: 20px;
+}
+
+.icon_of_Leo:hover{
+    color: #777;
+}
+
+/* .link_follow_Leo:hover{
+    background-color: #ccc;
+} */
+
+.follow_Leo{
+    padding-left: 41%;
+}
